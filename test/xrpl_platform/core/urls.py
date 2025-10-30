@@ -7,4 +7,5 @@ urlpatterns = [
     # use the 'homepage' function from views.py.
     # We name it 'homepage' so we can refer to it easily later.
     path('', views.homepage, name='homepage'),
+    path('about/', views.about_page, name='about_page'),
 ]

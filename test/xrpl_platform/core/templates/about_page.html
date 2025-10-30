@@ -1,0 +1,22 @@
+{# Specifies that this template uses layout.html as its base #}
+{% extends 'layout.html' %}
+{# Loads the static tag, even if unused, for consistency #}
+{% load static %}
+
+{# Overrides the 'title' block defined in the layout #}
+{% block title %}About Us - My Site{% endblock title %}
+
+{# This block is available for page-specific CSS #}
+{% block styles %}
+{% endblock styles %}cd
+
+{# Inserts content into the 'content' block defined in the layout #}
+{% block content %}
+    <h2>About Us</h2>
+    <p>This page contains information about our company.</p>
+    <p>We are dedicated to providing excellent services and products.</p>
+{% endblock content %}
+
+{# This block is available for page-specific JS #}
+{% block scripts %}
+{% endblock scripts %}

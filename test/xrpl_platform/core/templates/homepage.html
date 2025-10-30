@@ -1,0 +1,24 @@
+{# Inherits the structure from the updated layout.html #}
+{% extends 'layout.html' %}
+{% load static %}
+
+{# Sets the page-specific title #}
+{% block title %}My Homepage{% endblock title %}
+
+{# Adds page-specific CSS to the 'styles' block in the <head> #}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% endblock styles %}
+
+{# Inserts the main page content #}
+{% block content %}
+    <h1>This is your homepage skeleton!</h1>
+    <p>
+        The background color should be light blue-gray if your CSS is working.
+    </p>
+{% endblock content %}
+
+{# Adds page-specific JS to the 'scripts' block at the end of <body> #}
+{% block scripts %}
+    <script src="{% static 'js/main.js' %}"></script>
+{% endblock scripts %}

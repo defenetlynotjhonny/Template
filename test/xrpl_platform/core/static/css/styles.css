@@ -4,3 +4,46 @@ body {
     color: #333;
     font-family: sans-serif;
 }
+
+
+/* Styles the main header container */
+header {
+    background-color: #2c3e50; /* Dark blue-gray background */
+    padding: 20px 40px;
+    display: flex; /* Aligns h1 and nav horizontally */
+    justify-content: space-between; /* Puts space between h1 and nav */
+    align-items: center;
+    color: #ecf0f1; /* Light text color for contrast */
+}
+
+/* Styles the main heading */
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles the navigation list */
+header nav ul {
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arranges list items horizontally */
+    gap: 20px; /* Adds space between list items */
+}
+
+/* Styles the navigation links */
+header nav a {
+    color: #ecf0f1; /* Light text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 1.1rem;
+    font-family: 'Arial', sans-serif;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Adds a hover effect for interactivity */
+header nav a:hover {
+    background-color: #34495e; /* Slightly lighter dark shade on hover */
+}
