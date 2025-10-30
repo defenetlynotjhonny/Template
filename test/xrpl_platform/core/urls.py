@@ -8,4 +8,8 @@ urlpatterns = [
     # We name it 'homepage' so we can refer to it easily later.
     path('', views.homepage, name='homepage'),
     path('about/', views.about_page, name='about_page'),
+    path('api/data/', views.api_data, name='api_data'),
+    path('api/post/', views.api_post_data, name='api_post_data'),
+    path('api/key-login/', views.api_key_login, name='api_key_login'),
+    path('login/', views.login_page_view, name='login_page'),
 ]

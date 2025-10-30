@@ -1,0 +1,43 @@
+
+{% extends 'layout.html' %}
+{% load static %}
+
+{# Sets the title for this specific page #}
+{% block title %}Secure Access - XRPL Platform{% endblock title %}
+
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% endblock styles %}
+
+
+{% block content %}
+<div class="login-container">
+    <form id="key-login-form">
+        <h2>Access Wallet</h2>
+        <p>Enter your 24-word secret key to proceed.</p>
+        
+        <div class="textarea-wrapper">
+            <textarea 
+                id="secret-key-input" 
+                rows="4" 
+                placeholder="Enter your 24 words here..."
+                aria-label="Secret Key Input"></textarea>
+        </div>
+
+        <button type="submit" id="login-button">Access Now</button>
+        
+        <p id="error-message" class="error-message"></p>
+    </form>
+</div>
+{% endblock content %}
+
+
+{# 
+  This block adds the page-specific login.js.
+  '{{ block.super }}' ensures that 'main.js' (from the layout) is still loaded.
+#}
+{% block scripts %}
+    {{ block.super }} {# This includes main.js #}
+    <script src="{% static 'js/login.js' %} " defer></script>
+{% endblock scripts %}
