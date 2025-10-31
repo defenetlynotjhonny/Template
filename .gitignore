@@ -70,3 +70,4 @@ staticfiles_build/
 # Vim/NeoVim swap files
 *.swp
 *.swo
+.DS_Store
