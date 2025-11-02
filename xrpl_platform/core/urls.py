@@ -12,4 +12,5 @@ urlpatterns = [
     path('api/post/', views.api_post_data, name='api_post_data'),
     path('api/key-login/', views.api_key_login, name='api_key_login'),
     path('login/', views.login_page_view, name='login_page'),
+    path('payment/', views.payment_page, name='payment_page'),
 ]

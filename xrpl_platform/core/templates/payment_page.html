@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}Xumm Payment{% endblock title %}
+
+{% block content %}
+<div class="container" style="text-align: center; padding: 2rem;">
+    <h2>Make a Donation</h2>
+    <p>Click the button below to generate a QR code to pay 1 XRP.</p>
+
+    <!-- Button to start the payment -->
+    <button id="pay-button" class="btn">Donate 1 XRP</button>
+
+    <!-- This is where the QR code and messages will appear -->
+    <div id="payment-status" style="margin-top: 1.5rem;">
+        
+        <!-- QR Code will be injected here -->
+        <div id="qr-container" class="hidden" style="margin-top: 1rem;">
+            <p>Scan the QR code with your Xaman app to sign:</p>
+            <img id="qr-image" src="" alt="Payment QR Code" style="max-width: 300px; border: 1px solid #ddd; border-radius: 8px;">
+        </div>
+        
+        <!-- Loading spinner (simple text) -->
+        <div id="loading" class="hidden" style="margin-top: 1rem;">
+            <p>Generating payment request...</p>
+        </div>
+
+        <!-- Final status message -->
+        <div id="message-container" style="margin-top: 1rem; font-weight: bold;"></div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block scripts %}
+    {{ block.super }} <!-- This includes the main.js from your layout -->
+    <script src="{% static 'js/payment.js' %}"></script>
+{% endblock scripts %}
