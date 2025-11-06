@@ -24,3 +24,4 @@ EXPOSE 8000
 # This is great for development, but not for production
 
 CMD ["python", "xrpl_platform/manage.py", "runserver", "0.0.0.0:8000"]
+# *! TODO: For production, consider using Gunicorn or another WSGI server

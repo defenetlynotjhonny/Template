@@ -68,7 +68,22 @@ staticfiles_build/
 
 # PyCharm/IntelliJ
 .idea/
-
+.idea/*
+*.iml
+# JetBrains IDEs
+*.iws
+*.ipr
+# -------------------------------------------------------------------------
+# OS-specific files
+# -------------------------------------------------------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
 # Vim/NeoVim swap files
 *.swp
 *.swo
