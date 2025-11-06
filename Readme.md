@@ -116,3 +116,19 @@ urlpatterns = [
     path('about/', views.about_page, name='about'),
 ]
 That's it. After those three steps, you can run the server and your new page will be live at http://127.0.0.1:8000/about/.
+
+
+
+
+
+DOCKER:
+
+cd into directory containing the Dockerfile
+
+Build: 
+
+docker build -t xrpl_platform .
+
+Run:
+
+docker run -it --rm -p 8000:8000 xrpl_platform
