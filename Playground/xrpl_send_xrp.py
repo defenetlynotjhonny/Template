@@ -1,5 +1,7 @@
 from http import client
 import os
+from pprint import pprint
+from textwrap import indent
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import Wallet
@@ -68,4 +70,4 @@ response = submit_and_wait(transaction=payment_tx, client=client,wallet=wallet_1
 print("Payment Transaction Response:")
 print(response)
 print("-------------------------")
-print(response.result)
+pprint(response.result,indent=4)

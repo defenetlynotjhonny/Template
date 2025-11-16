@@ -1,0 +1,628 @@
+XRPL API Exploration Results for rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV
+Timestamp: Sun Nov 16 20:37:39 2025
+
+--- ServerInfo ---
+{
+    "info": {
+        "build_version": "2.6.2-rc1",
+        "complete_ledgers": "6-12414038",
+        "hostid": "LAME",
+        "initial_sync_duration_us": "105943097",
+        "io_latency_ms": 1,
+        "jq_trans_overflow": "0",
+        "last_close": {
+            "converge_time_s": 2,
+            "proposers": 6
+        },
+        "load_factor": 1,
+        "network_id": 1,
+        "peer_disconnects": "27156",
+        "peer_disconnects_resources": "38",
+        "peers": 102,
+        "ports": [
+            {
+                "port": "2459",
+                "protocol": [
+                    "peer"
+                ]
+            },
+            {
+                "port": "51233",
+                "protocol": [
+                    "ws2",
+                    "wss2"
+                ]
+            },
+            {
+                "port": "50051",
+                "protocol": [
+                    "grpc"
+                ]
+            }
+        ],
+        "pubkey_node": "n9M5vbcFdcnfnpsSoYs1ZiStPiH1Nd3Qk75UxYW5LN4vBZB1bujv",
+        "server_state": "full",
+        "server_state_duration_us": "341646912245",
+        "state_accounting": {
+            "connected": {
+                "duration_us": "40016926",
+                "transitions": "1"
+            },
+            "disconnected": {
+                "duration_us": "62924050",
+                "transitions": "1"
+            },
+            "full": {
+                "duration_us": "341646912245",
+                "transitions": "1"
+            },
+            "syncing": {
+                "duration_us": "3002094",
+                "transitions": "1"
+            },
+            "tracking": {
+                "duration_us": "25",
+                "transitions": "1"
+            }
+        },
+        "time": "2025-Nov-16 19:37:39.970301 UTC",
+        "uptime": 341752,
+        "validated_ledger": {
+            "age": 2,
+            "base_fee_xrp": 1e-05,
+            "hash": "7CDDF86D92A7E2BF42233E0DF2C6CEBFEE2E27504A5D33AFAE5CF709465B1B43",
+            "reserve_base_xrp": 1,
+            "reserve_inc_xrp": 0.2,
+            "seq": 12414038
+        },
+        "validation_quorum": 5
+    }
+}
+
+--- ServerState ---
+{
+    "state": {
+        "build_version": "2.6.2-rc1",
+        "complete_ledgers": "6-12414038",
+        "initial_sync_duration_us": "105943097",
+        "io_latency_ms": 1,
+        "jq_trans_overflow": "0",
+        "last_close": {
+            "converge_time": 2000,
+            "proposers": 6
+        },
+        "load_base": 256,
+        "load_factor": 256,
+        "load_factor_fee_escalation": 256,
+        "load_factor_fee_queue": 256,
+        "load_factor_fee_reference": 256,
+        "load_factor_server": 256,
+        "network_id": 1,
+        "peer_disconnects": "27156",
+        "peer_disconnects_resources": "38",
+        "peers": 102,
+        "ports": [
+            {
+                "port": "2459",
+                "protocol": [
+                    "peer"
+                ]
+            },
+            {
+                "port": "51233",
+                "protocol": [
+                    "ws2",
+                    "wss2"
+                ]
+            },
+            {
+                "port": "50051",
+                "protocol": [
+                    "grpc"
+                ]
+            }
+        ],
+        "pubkey_node": "n9M5vbcFdcnfnpsSoYs1ZiStPiH1Nd3Qk75UxYW5LN4vBZB1bujv",
+        "server_state": "full",
+        "server_state_duration_us": "341647334200",
+        "state_accounting": {
+            "connected": {
+                "duration_us": "40016926",
+                "transitions": "1"
+            },
+            "disconnected": {
+                "duration_us": "62924050",
+                "transitions": "1"
+            },
+            "full": {
+                "duration_us": "341647334200",
+                "transitions": "1"
+            },
+            "syncing": {
+                "duration_us": "3002094",
+                "transitions": "1"
+            },
+            "tracking": {
+                "duration_us": "25",
+                "transitions": "1"
+            }
+        },
+        "time": "2025-Nov-16 19:37:40.392250 UTC",
+        "uptime": 341753,
+        "validated_ledger": {
+            "base_fee": 10,
+            "close_time": 816637060,
+            "hash": "7CDDF86D92A7E2BF42233E0DF2C6CEBFEE2E27504A5D33AFAE5CF709465B1B43",
+            "reserve_base": 1000000,
+            "reserve_inc": 200000,
+            "seq": 12414038
+        },
+        "validation_quorum": 5
+    }
+}
+
+--- Ping ---
+{}
+
+--- Random ---
+{
+    "random": "CE0FE7D5F62E393E6E09159D572C86C3E7D29BE84ED5EF878B568CF6308C7B6D"
+}
+
+--- LedgerCurrent ---
+{
+    "ledger_current_index": 12414040
+}
+
+--- LedgerClosed ---
+{
+    "ledger_hash": "747C5EDC84F9C7794AC3C4103C855B0958EFE64EDFA9EBFB3C9E22ED30013C21",
+    "ledger_index": 12414039
+}
+
+--- Ledger (Current) ---
+{
+    "ledger": {
+        "closed": false,
+        "ledger_index": 12414040,
+        "parent_hash": "747C5EDC84F9C7794AC3C4103C855B0958EFE64EDFA9EBFB3C9E22ED30013C21",
+        "transactions": [
+            "1E2C26EFFDAA71628A86F0EE2707506F0E1AA151460A65A8DE13605E267E94B1",
+            "82AC6CA7C4E239DF506158EE82D20E71E4C379BD7BB74F700E505589F6814C24"
+        ]
+    },
+    "ledger_current_index": 12414040,
+    "validated": false
+}
+
+--- LedgerData (Limit 5) ---
+{
+    "ledger": {
+        "closed": false,
+        "ledger_index": 12414040,
+        "parent_hash": "747C5EDC84F9C7794AC3C4103C855B0958EFE64EDFA9EBFB3C9E22ED30013C21"
+    },
+    "ledger_current_index": 12414040,
+    "ledger_hash": "747C5EDC84F9C7794AC3C4103C855B0958EFE64EDFA9EBFB3C9E22ED30013C21",
+    "ledger_index": 12414040,
+    "marker": "000007598F284E8D731BC857D241388E1312D893C7FC8369544869DF058838E6",
+    "state": [
+        {
+            "Account": "r3J3TYZMFvHstfeQUqjFYTAFrAo7qWwkf4",
+            "Balance": "9999990",
+            "Flags": 0,
+            "LedgerEntryType": "AccountRoot",
+            "OwnerCount": 0,
+            "PreviousTxnID": "3C62C5B5C70A3FEA03DE28D44861C0CCB716CCE281569B31029AD1EF33798C70",
+            "PreviousTxnLgrSeq": 7650129,
+            "Sequence": 7649599,
+            "index": "0000007BECA2AECE6BE063D0399F10249DD18BD7412A3334FD5586938D95493E"
+        },
+        {
+            "Account": "rJkgmTt3CjvGPizR2UqJWf4QyZTRx3ziXi",
+            "Balance": "9999976",
+            "Flags": 0,
+            "LedgerEntryType": "AccountRoot",
+            "OwnerCount": 0,
+            "PreviousTxnID": "FDFB163377B79CB58641D1862A364C5CF436E9DD1E6789645AB90DD0D77B3A27",
+            "PreviousTxnLgrSeq": 3877676,
+            "Sequence": 3877674,
+            "index": "00000354B99ADBAAC0B026971B6C67F40D12009BC8DF1BDA6B3AF68688B3AADB"
+        },
+        {
+            "Account": "rD4H9RXQUZkJgvMZwAyipuMtVoBL8y5qMa",
+            "Balance": "17999990",
+            "Flags": 0,
+            "LedgerEntryType": "AccountRoot",
+            "OwnerCount": 0,
+            "PreviousTxnID": "BA3554A1241FA162BFBC4D7F160EFB11840774BF1E4E544D228ED1B8F925807E",
+            "PreviousTxnLgrSeq": 7673435,
+            "Sequence": 7673429,
+            "index": "000004421DFBDA859BAFF3E342B5538087232A4ADE5625D9A049270634ADC491"
+        },
+        {
+            "Account": "r3GyaQXjEyM2Uc9KLXyEsqrfuiXYzXMCPb",
+            "Balance": "9999990",
+            "Flags": 0,
+            "LedgerEntryType": "AccountRoot",
+            "OwnerCount": 0,
+            "PreviousTxnID": "0186357EF13855E706C61E59BF256D51028F7861E09044203397B9C2AD05C483",
+            "PreviousTxnLgrSeq": 7477916,
+            "Sequence": 7477660,
+            "index": "000004C7888495AA552CE630FBF9703CC67AC32C69F8E4B17DEA68E0A83BE29A"
+        },
+        {
+            "Account": "rH5ywfhcAjHUbwPVwJLLUtPx2t3vwXxg8j",
+            "Balance": "100000000",
+            "Flags": 0,
+            "LedgerEntryType": "AccountRoot",
+            "OwnerCount": 0,
+            "PreviousTxnID": "B20115085E6D4B837636863751E3184194462FB12E8E884C9D93214C4475861C",
+            "PreviousTxnLgrSeq": 3235115,
+            "Sequence": 3235115,
+            "index": "000005111BFFB678AD0D64207AD1F72B9B318150DEBC648010D64FF84A1500A5"
+        }
+    ],
+    "validated": false
+}
+
+--- AccountInfo ---
+{
+    "account_data": {
+        "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+        "Balance": "95999860",
+        "FirstNFTokenSequence": 12302710,
+        "Flags": 16777216,
+        "LedgerEntryType": "AccountRoot",
+        "MintedNFTokens": 1,
+        "OwnerCount": 1,
+        "PreviousTxnID": "55AE43CBA05EE0546FC477308F3875D4E85B7536809678624AC8BBDA3BD449C6",
+        "PreviousTxnLgrSeq": 12408858,
+        "Sequence": 12302723,
+        "index": "DD448D54BF3B8AD9FD9DCB7720D28F98B4B829EEDD4800D7B5A3965550C55599"
+    },
+    "account_flags": {
+        "allowTrustLineClawback": false,
+        "defaultRipple": false,
+        "depositAuth": true,
+        "disableMasterKey": false,
+        "disallowIncomingCheck": false,
+        "disallowIncomingNFTokenOffer": false,
+        "disallowIncomingPayChan": false,
+        "disallowIncomingTrustline": false,
+        "disallowIncomingXRP": false,
+        "globalFreeze": false,
+        "noFreeze": false,
+        "passwordSpent": false,
+        "requireAuthorization": false,
+        "requireDestinationTag": false
+    },
+    "ledger_current_index": 12414040,
+    "validated": false
+}
+
+--- AccountCurrencies ---
+{
+    "ledger_current_index": 12414041,
+    "receive_currencies": [],
+    "send_currencies": [],
+    "validated": false
+}
+
+--- AccountChannels ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "channels": [],
+    "ledger_current_index": 12414041,
+    "validated": false
+}
+
+--- AccountLines ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "ledger_current_index": 12414041,
+    "lines": [],
+    "validated": false
+}
+
+--- AccountNFTs ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "account_nfts": [
+        {
+            "Flags": 0,
+            "Issuer": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+            "NFTokenID": "00000000955CF0E765491900ECA6C630CCCE9566A407F9264DB3191000BBB976",
+            "NFTokenTaxon": 1,
+            "URI": "2F55736572732F6A686F6E6E792F7265706F732F50726F6A6563745F582F506C617967726F756E642F6173736574732F6E66742E706E67",
+            "nft_serial": 12302710
+        }
+    ],
+    "ledger_current_index": 12414041,
+    "validated": false
+}
+
+--- AccountObjects (Type: State) ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "account_objects": [],
+    "ledger_current_index": 12414041,
+    "validated": false
+}
+
+--- AccountOffers ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "ledger_current_index": 12414041,
+    "offers": [],
+    "validated": false
+}
+
+--- AccountTx (Limit 5) ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "ledger_index_max": 12414040,
+    "ledger_index_min": 6,
+    "limit": 5,
+    "marker": {
+        "ledger": 12408018,
+        "seq": 0
+    },
+    "transactions": [
+        {
+            "close_time_iso": "2025-11-16T15:15:20Z",
+            "hash": "55AE43CBA05EE0546FC477308F3875D4E85B7536809678624AC8BBDA3BD449C6",
+            "ledger_hash": "24F1602F731F1244809E38928CF2CAFBDF5004726F3F7A8B2511FCDA201732A6",
+            "ledger_index": 12408858,
+            "meta": {
+                "AffectedNodes": [
+                    {
+                        "ModifiedNode": {
+                            "FinalFields": {
+                                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                                "Balance": "95999860",
+                                "FirstNFTokenSequence": 12302710,
+                                "Flags": 16777216,
+                                "MintedNFTokens": 1,
+                                "OwnerCount": 1,
+                                "Sequence": 12302723
+                            },
+                            "LedgerEntryType": "AccountRoot",
+                            "LedgerIndex": "DD448D54BF3B8AD9FD9DCB7720D28F98B4B829EEDD4800D7B5A3965550C55599",
+                            "PreviousFields": {
+                                "Balance": "95999870",
+                                "Sequence": 12302722
+                            },
+                            "PreviousTxnID": "C7CEE84F2670D361B10835BEF464C8F5CD8F5EA2D07746FA17D960C7C319CFEC",
+                            "PreviousTxnLgrSeq": 12408855
+                        }
+                    }
+                ],
+                "TransactionIndex": 2,
+                "TransactionResult": "tesSUCCESS"
+            },
+            "tx_json": {
+                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                "ClearFlag": 1,
+                "Fee": "10",
+                "LastLedgerSequence": 12408876,
+                "Sequence": 12302722,
+                "SigningPubKey": "ED3C111C98047E25830613425863FEC0723FCDF302C2AC6874F7D72CCEDF7E6A4B",
+                "TransactionType": "AccountSet",
+                "TxnSignature": "F1959A6944C95474DB458171AAE5CC90E890DFAA8CB1FF766203D747750E7DCFC6AEBF775BB880AE674426D1F3792937D4EAB3EB91A841211685330F9BE98204",
+                "ctid": "C0BD581A00020001",
+                "date": 816621320,
+                "ledger_index": 12408858
+            },
+            "validated": true
+        },
+        {
+            "close_time_iso": "2025-11-16T15:15:11Z",
+            "hash": "C7CEE84F2670D361B10835BEF464C8F5CD8F5EA2D07746FA17D960C7C319CFEC",
+            "ledger_hash": "FA1BB611C71F6033DC30F0A48F8794F943E02DF174BFCDA65CC3CFD4F3FA6EA0",
+            "ledger_index": 12408855,
+            "meta": {
+                "AffectedNodes": [
+                    {
+                        "ModifiedNode": {
+                            "FinalFields": {
+                                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                                "Balance": "95999870",
+                                "FirstNFTokenSequence": 12302710,
+                                "Flags": 16777216,
+                                "MintedNFTokens": 1,
+                                "OwnerCount": 1,
+                                "Sequence": 12302722
+                            },
+                            "LedgerEntryType": "AccountRoot",
+                            "LedgerIndex": "DD448D54BF3B8AD9FD9DCB7720D28F98B4B829EEDD4800D7B5A3965550C55599",
+                            "PreviousFields": {
+                                "Balance": "95999880",
+                                "Sequence": 12302721
+                            },
+                            "PreviousTxnID": "9E9A0FE90AD67168F489A2414E90470568D936E4911C4B7952D49E10A6097C5A",
+                            "PreviousTxnLgrSeq": 12408841
+                        }
+                    }
+                ],
+                "TransactionIndex": 0,
+                "TransactionResult": "tesSUCCESS"
+            },
+            "tx_json": {
+                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                "Fee": "10",
+                "LastLedgerSequence": 12408873,
+                "Sequence": 12302721,
+                "SetFlag": 9,
+                "SigningPubKey": "ED3C111C98047E25830613425863FEC0723FCDF302C2AC6874F7D72CCEDF7E6A4B",
+                "TransactionType": "AccountSet",
+                "TxnSignature": "46DE5E7A5483DE9314A078E188FCCEDE06EDAF658389E2FD442EB0CEA3047DBC41C9BF82977E64CD1EC08677C5C7A4D9251494655267A3D9DF251E9121A1C104",
+                "ctid": "C0BD581700000001",
+                "date": 816621311,
+                "ledger_index": 12408855
+            },
+            "validated": true
+        },
+        {
+            "close_time_iso": "2025-11-16T15:14:30Z",
+            "hash": "9E9A0FE90AD67168F489A2414E90470568D936E4911C4B7952D49E10A6097C5A",
+            "ledger_hash": "8B38860F66A1D6ED3A20529714EAEA6EEA906145328A2067FB4115E4DB5A87F7",
+            "ledger_index": 12408841,
+            "meta": {
+                "AffectedNodes": [
+                    {
+                        "ModifiedNode": {
+                            "FinalFields": {
+                                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                                "Balance": "95999880",
+                                "FirstNFTokenSequence": 12302710,
+                                "Flags": 16777216,
+                                "MintedNFTokens": 1,
+                                "OwnerCount": 1,
+                                "Sequence": 12302721
+                            },
+                            "LedgerEntryType": "AccountRoot",
+                            "LedgerIndex": "DD448D54BF3B8AD9FD9DCB7720D28F98B4B829EEDD4800D7B5A3965550C55599",
+                            "PreviousFields": {
+                                "Balance": "95999890",
+                                "Sequence": 12302720
+                            },
+                            "PreviousTxnID": "AB799059A24225B3C66AAF7BC7FB69C3C30609C258962D80744A1C0C4319166F",
+                            "PreviousTxnLgrSeq": 12408838
+                        }
+                    }
+                ],
+                "TransactionIndex": 1,
+                "TransactionResult": "tesSUCCESS"
+            },
+            "tx_json": {
+                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                "ClearFlag": 1,
+                "Fee": "10",
+                "LastLedgerSequence": 12408859,
+                "Sequence": 12302720,
+                "SigningPubKey": "ED3C111C98047E25830613425863FEC0723FCDF302C2AC6874F7D72CCEDF7E6A4B",
+                "TransactionType": "AccountSet",
+                "TxnSignature": "9CDC6A037C7F96CD9E7C3406550978F31102380760DE02A1572AACCF4FA716AC72260C407685AA46AA02AA71EFA79B29D510F7A15FB62578D2D91FA102ADE904",
+                "ctid": "C0BD580900010001",
+                "date": 816621270,
+                "ledger_index": 12408841
+            },
+            "validated": true
+        },
+        {
+            "close_time_iso": "2025-11-16T15:14:20Z",
+            "hash": "AB799059A24225B3C66AAF7BC7FB69C3C30609C258962D80744A1C0C4319166F",
+            "ledger_hash": "7149726AE25A46A5C8CF92EBE131E54D505D44B34101ABB687DDDEBECB9BE464",
+            "ledger_index": 12408838,
+            "meta": {
+                "AffectedNodes": [
+                    {
+                        "ModifiedNode": {
+                            "FinalFields": {
+                                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                                "Balance": "95999890",
+                                "FirstNFTokenSequence": 12302710,
+                                "Flags": 16777216,
+                                "MintedNFTokens": 1,
+                                "OwnerCount": 1,
+                                "Sequence": 12302720
+                            },
+                            "LedgerEntryType": "AccountRoot",
+                            "LedgerIndex": "DD448D54BF3B8AD9FD9DCB7720D28F98B4B829EEDD4800D7B5A3965550C55599",
+                            "PreviousFields": {
+                                "Balance": "95999900",
+                                "Sequence": 12302719
+                            },
+                            "PreviousTxnID": "419BC4F8A3D921EDC291F09A88EE7E09A6985A19047DE59F2EC3CA65A623AA26",
+                            "PreviousTxnLgrSeq": 12408020
+                        }
+                    }
+                ],
+                "TransactionIndex": 0,
+                "TransactionResult": "tesSUCCESS"
+            },
+            "tx_json": {
+                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                "Fee": "10",
+                "LastLedgerSequence": 12408856,
+                "Sequence": 12302719,
+                "SetFlag": 9,
+                "SigningPubKey": "ED3C111C98047E25830613425863FEC0723FCDF302C2AC6874F7D72CCEDF7E6A4B",
+                "TransactionType": "AccountSet",
+                "TxnSignature": "501505691FC805EA076E390EA0780CE0EFF3DB5D98DEE03E8C96F988DFA9038A6FB119143226F29A77BDDFBD255C74E30DE9B02C751CB0FEDD092A82EC160607",
+                "ctid": "C0BD580600000001",
+                "date": 816621260,
+                "ledger_index": 12408838
+            },
+            "validated": true
+        },
+        {
+            "close_time_iso": "2025-11-16T14:32:50Z",
+            "hash": "419BC4F8A3D921EDC291F09A88EE7E09A6985A19047DE59F2EC3CA65A623AA26",
+            "ledger_hash": "D615D2A9A5E3F4438F7F3A361CA733641D523CD1F6825890CC0ADB815C42EA9F",
+            "ledger_index": 12408020,
+            "meta": {
+                "AffectedNodes": [
+                    {
+                        "ModifiedNode": {
+                            "FinalFields": {
+                                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                                "Balance": "95999900",
+                                "FirstNFTokenSequence": 12302710,
+                                "Flags": 16777216,
+                                "MintedNFTokens": 1,
+                                "OwnerCount": 1,
+                                "Sequence": 12302719
+                            },
+                            "LedgerEntryType": "AccountRoot",
+                            "LedgerIndex": "DD448D54BF3B8AD9FD9DCB7720D28F98B4B829EEDD4800D7B5A3965550C55599",
+                            "PreviousFields": {
+                                "Balance": "95999910",
+                                "Sequence": 12302718
+                            },
+                            "PreviousTxnID": "1394A953B8E3A36A53C3B54AEA08F391F03FDEC45AE319C97F1F4E7985C3EA5C",
+                            "PreviousTxnLgrSeq": 12408018
+                        }
+                    }
+                ],
+                "TransactionIndex": 1,
+                "TransactionResult": "tesSUCCESS"
+            },
+            "tx_json": {
+                "Account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+                "ClearFlag": 1,
+                "Fee": "10",
+                "LastLedgerSequence": 12408038,
+                "Sequence": 12302718,
+                "SigningPubKey": "ED3C111C98047E25830613425863FEC0723FCDF302C2AC6874F7D72CCEDF7E6A4B",
+                "TransactionType": "AccountSet",
+                "TxnSignature": "1A33638C3450436C6662B6DA5ECE880FEAA106992D8B8FA20FAAFF32998889B459333F81C99FF875B51E39F0F781AB07047FB79A87F0415FB3A4D5843F7B4F07",
+                "ctid": "C0BD54D400010001",
+                "date": 816618770,
+                "ledger_index": 12408020
+            },
+            "validated": true
+        }
+    ],
+    "validated": true
+}
+
+--- GatewayBalances ---
+{
+    "account": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV",
+    "ledger_current_index": 12414042,
+    "validated": false
+}
+
+--- NFTsByIssuer ---
+{
+    "error": "unknownCmd",
+    "error_code": 32,
+    "error_message": "Unknown method.",
+    "request": {
+        "api_version": 2,
+        "command": "nfts_by_issuer",
+        "issuer": "rNcmpNiUjUjrWhod2Vr1fgQPtZm9QyPVRV"
+    }
+}
