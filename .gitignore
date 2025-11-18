@@ -82,6 +82,10 @@ staticfiles_build/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+*.db
+*.log
+*.sqlite3
+
 # Linux
 *~
 # Vim/NeoVim swap files
