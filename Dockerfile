@@ -23,5 +23,5 @@ EXPOSE 8000
 # Run the Django development server
 # This is great for development, but not for production
 
-CMD ["python", "xrpl_platform/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "xrpl_platform/manage.py", "runserver", "db"]
 # *! TODO: For production, consider using Gunicorn or another WSGI server

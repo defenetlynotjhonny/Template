@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: xrpl_db
+      POSTGRES_USER: xrpl_user
+      POSTGRES_PASSWORD: supersecretpassword
+    volumes:
+      - xrpl_postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"  # optional: only needed if you want to connect from host tools
+
+  web:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      POSTGRES_DB: xrpl_db
+      POSTGRES_USER: xrpl_user
+      POSTGRES_PASSWORD: supersecretpassword
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+    ports:
+      - "8000:8000"
+    command: python xrpl_platform/manage.py runserver 0.0.0.0:8000
+
+volumes:
+  xrpl_postgres_data:
